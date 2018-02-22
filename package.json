@@ -1,0 +1,25 @@
+{
+  "name": "npm-exercises",
+  "version": "1.0.0",
+  "description": "learning at codeup(npm...etc)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmccool1/npm-exercises.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "build:production": "webpack -p"
+  },
+  "author": "tjmccool1",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.3.1",
+    "webpack": "^3.11.0"
+  }
+}
